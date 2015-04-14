@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86AAB3931ADD905C00ABDBD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AAB3921ADD905C00ABDBD6 /* AppDelegate.swift */; };
+		86AAB3951ADD905C00ABDBD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AAB3941ADD905C00ABDBD6 /* ViewController.swift */; };
+		86AAB3981ADD905C00ABDBD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AAB3961ADD905C00ABDBD6 /* Main.storyboard */; };
+		86AAB39A1ADD905C00ABDBD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AAB3991ADD905C00ABDBD6 /* Images.xcassets */; };
+		86AAB39D1ADD905C00ABDBD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86AAB39B1ADD905C00ABDBD6 /* LaunchScreen.xib */; };
+		86AAB3A91ADD905C00ABDBD6 /* Jordan_Singer_WWDC_15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AAB3A81ADD905C00ABDBD6 /* Jordan_Singer_WWDC_15Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86AAB3A31ADD905C00ABDBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB3851ADD905C00ABDBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86AAB38C1ADD905C00ABDBD6;
+			remoteInfo = "Jordan Singer WWDC 15";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86AAB38D1ADD905C00ABDBD6 /* Jordan Singer WWDC 15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jordan Singer WWDC 15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AAB3911ADD905C00ABDBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AAB3921ADD905C00ABDBD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86AAB3941ADD905C00ABDBD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86AAB3971ADD905C00ABDBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86AAB3991ADD905C00ABDBD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86AAB39C1ADD905C00ABDBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		86AAB3A21ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jordan Singer WWDC 15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AAB3A71ADD905C00ABDBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AAB3A81ADD905C00ABDBD6 /* Jordan_Singer_WWDC_15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jordan_Singer_WWDC_15Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86AAB38A1ADD905C00ABDBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AAB39F1ADD905C00ABDBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86AAB3841ADD905C00ABDBD6 = {
+			isa = PBXGroup;
+			children = (
+				86AAB38F1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */,
+				86AAB3A51ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests */,
+				86AAB38E1ADD905C00ABDBD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86AAB38E1ADD905C00ABDBD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AAB38D1ADD905C00ABDBD6 /* Jordan Singer WWDC 15.app */,
+				86AAB3A21ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86AAB38F1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */ = {
+			isa = PBXGroup;
+			children = (
+				86AAB3921ADD905C00ABDBD6 /* AppDelegate.swift */,
+				86AAB3941ADD905C00ABDBD6 /* ViewController.swift */,
+				86AAB3961ADD905C00ABDBD6 /* Main.storyboard */,
+				86AAB3991ADD905C00ABDBD6 /* Images.xcassets */,
+				86AAB39B1ADD905C00ABDBD6 /* LaunchScreen.xib */,
+				86AAB3901ADD905C00ABDBD6 /* Supporting Files */,
+			);
+			path = "Jordan Singer WWDC 15";
+			sourceTree = "<group>";
+		};
+		86AAB3901ADD905C00ABDBD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AAB3911ADD905C00ABDBD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86AAB3A51ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				86AAB3A81ADD905C00ABDBD6 /* Jordan_Singer_WWDC_15Tests.swift */,
+				86AAB3A61ADD905C00ABDBD6 /* Supporting Files */,
+			);
+			path = "Jordan Singer WWDC 15Tests";
+			sourceTree = "<group>";
+		};
+		86AAB3A61ADD905C00ABDBD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AAB3A71ADD905C00ABDBD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86AAB38C1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AAB3AC1ADD905C00ABDBD6 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15" */;
+			buildPhases = (
+				86AAB3891ADD905C00ABDBD6 /* Sources */,
+				86AAB38A1ADD905C00ABDBD6 /* Frameworks */,
+				86AAB38B1ADD905C00ABDBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jordan Singer WWDC 15";
+			productName = "Jordan Singer WWDC 15";
+			productReference = 86AAB38D1ADD905C00ABDBD6 /* Jordan Singer WWDC 15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86AAB3A11ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AAB3AF1ADD905C00ABDBD6 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15Tests" */;
+			buildPhases = (
+				86AAB39E1ADD905C00ABDBD6 /* Sources */,
+				86AAB39F1ADD905C00ABDBD6 /* Frameworks */,
+				86AAB3A01ADD905C00ABDBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86AAB3A41ADD905C00ABDBD6 /* PBXTargetDependency */,
+			);
+			name = "Jordan Singer WWDC 15Tests";
+			productName = "Jordan Singer WWDC 15Tests";
+			productReference = 86AAB3A21ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86AAB3851ADD905C00ABDBD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jordan Singer";
+				TargetAttributes = {
+					86AAB38C1ADD905C00ABDBD6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					86AAB3A11ADD905C00ABDBD6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 86AAB38C1ADD905C00ABDBD6;
+					};
+				};
+			};
+			buildConfigurationList = 86AAB3881ADD905C00ABDBD6 /* Build configuration list for PBXProject "Jordan Singer WWDC 15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86AAB3841ADD905C00ABDBD6;
+			productRefGroup = 86AAB38E1ADD905C00ABDBD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86AAB38C1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */,
+				86AAB3A11ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86AAB38B1ADD905C00ABDBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AAB3981ADD905C00ABDBD6 /* Main.storyboard in Resources */,
+				86AAB39D1ADD905C00ABDBD6 /* LaunchScreen.xib in Resources */,
+				86AAB39A1ADD905C00ABDBD6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AAB3A01ADD905C00ABDBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86AAB3891ADD905C00ABDBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AAB3951ADD905C00ABDBD6 /* ViewController.swift in Sources */,
+				86AAB3931ADD905C00ABDBD6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AAB39E1ADD905C00ABDBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AAB3A91ADD905C00ABDBD6 /* Jordan_Singer_WWDC_15Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86AAB3A41ADD905C00ABDBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86AAB38C1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */;
+			targetProxy = 86AAB3A31ADD905C00ABDBD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86AAB3961ADD905C00ABDBD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AAB3971ADD905C00ABDBD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86AAB39B1ADD905C00ABDBD6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AAB39C1ADD905C00ABDBD6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86AAB3AA1ADD905C00ABDBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86AAB3AB1ADD905C00ABDBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86AAB3AD1ADD905C00ABDBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jordan Singer WWDC 15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86AAB3AE1ADD905C00ABDBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jordan Singer WWDC 15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86AAB3B01ADD905C00ABDBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jordan Singer WWDC 15Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jordan Singer WWDC 15.app/Jordan Singer WWDC 15";
+			};
+			name = Debug;
+		};
+		86AAB3B11ADD905C00ABDBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jordan Singer WWDC 15Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jordan Singer WWDC 15.app/Jordan Singer WWDC 15";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86AAB3881ADD905C00ABDBD6 /* Build configuration list for PBXProject "Jordan Singer WWDC 15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AAB3AA1ADD905C00ABDBD6 /* Debug */,
+				86AAB3AB1ADD905C00ABDBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AAB3AC1ADD905C00ABDBD6 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AAB3AD1ADD905C00ABDBD6 /* Debug */,
+				86AAB3AE1ADD905C00ABDBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86AAB3AF1ADD905C00ABDBD6 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AAB3B01ADD905C00ABDBD6 /* Debug */,
+				86AAB3B11ADD905C00ABDBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86AAB3851ADD905C00ABDBD6 /* Project object */;
+}
