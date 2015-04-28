@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Jordan Singer WWDC 15 WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Jordan Singer WWDC 15.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8611BB751AEDCB1B00936B97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>86AAB38C1ADD905C00ABDBD6</key>
 		<dict>
 			<key>primary</key>

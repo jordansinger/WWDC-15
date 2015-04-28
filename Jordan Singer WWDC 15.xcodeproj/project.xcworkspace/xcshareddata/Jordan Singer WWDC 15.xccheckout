@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C250340-B784-4174-8BB1-27CEB91AAA2D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Jordan Singer WWDC 15</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>83A54D750A3FB1B017C4EF5A10918F02D1250E0C</key>
+		<string>github.com:jordansinger/WWDC-15.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Jordan Singer WWDC 15.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>83A54D750A3FB1B017C4EF5A10918F02D1250E0C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jordansinger/WWDC-15.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>83A54D750A3FB1B017C4EF5A10918F02D1250E0C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>83A54D750A3FB1B017C4EF5A10918F02D1250E0C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Jordan%20Singer%20WWDC%2015</string>
+		</dict>
+	</array>
+</dict>
+</plist>

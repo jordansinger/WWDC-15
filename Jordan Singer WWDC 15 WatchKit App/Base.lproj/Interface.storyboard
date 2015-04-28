@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14C78c" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Jordan-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="InterfaceController" title="Jordan" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Jordan_Singer_WWDC_15_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="KOi-ph-gfg">
+                            <items>
+                                <tableRow identifier="TitleRow" id="S02-7U-Edj" customClass="TitleRow" customModule="Jordan_Singer_WWDC_15_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="32" alignment="left" id="IzS-PJ-wnc">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="Wgd-zg-NtT"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="titleLabel" destination="Wgd-zg-NtT" id="7qS-QZ-cUa"/>
+                                        <segue destination="lRk-Yh-CrD" kind="push" id="VF9-aS-VAI"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="titleTable" destination="KOi-ph-gfg" id="xz5-PN-4am"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--TitleDetails-->
+        <scene sceneID="Twi-Wi-Vs4">
+            <objects>
+                <controller identifier="TitleDetails" id="lRk-Yh-CrD" customClass="TitleDetailInterfaceController" customModule="Jordan_Singer_WWDC_15_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Label" numberOfLines="50" id="15h-cB-uF1"/>
+                    </items>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="15h-cB-uF1" id="7zg-IH-B67"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="394" y="217"/>
+        </scene>
+    </scenes>
+</document>

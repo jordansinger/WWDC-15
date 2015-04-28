@@ -37,6 +37,12 @@
 		8606CB221ADF60EA006DEC77 /* hackarizona@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8606CB201ADF60EA006DEC77 /* hackarizona@3x.png */; };
 		8606CB251ADF61DD006DEC77 /* innovateua@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8606CB231ADF61DD006DEC77 /* innovateua@2x.png */; };
 		8606CB261ADF61DD006DEC77 /* innovateua@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8606CB241ADF61DD006DEC77 /* innovateua@3x.png */; };
+		860DD7331AEF50F50034A7DC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8611BB6E1AEDCB1B00936B97 /* InterfaceController.swift */; };
+		8611BB731AEDCB1B00936B97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8611BB721AEDCB1B00936B97 /* Images.xcassets */; };
+		8611BB771AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 8611BB761AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App.app */; };
+		8611BB811AEDCB1B00936B97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8611BB801AEDCB1B00936B97 /* Images.xcassets */; };
+		8611BB841AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8611BB6A1AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8681D4011AEF4B64006B943A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8611BB7D1AEDCB1B00936B97 /* Interface.storyboard */; };
 		868970381AE83CFA00322DF3 /* trickle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 868970361AE83CFA00322DF3 /* trickle@2x.png */; };
 		868970391AE83CFA00322DF3 /* trickle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 868970371AE83CFA00322DF3 /* trickle@3x.png */; };
 		8689703C1AE83D3C00322DF3 /* trickle-large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8689703A1AE83D3C00322DF3 /* trickle-large@2x.png */; };
@@ -68,9 +74,24 @@
 		86BAD3D81AEC320000E14928 /* close-white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86BAD3D41AEC320000E14928 /* close-white@3x.png */; };
 		86C9BAD81ADDD6C700653095 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9BAD71ADDD6C700653095 /* DetailViewController.swift */; };
 		86C9BADA1ADE2C4C00653095 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86C9BAD91ADE2C4C00653095 /* CustomTableViewCell.xib */; };
+		86FBEDF31AEF55D4003A3A88 /* TitleDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBEDF21AEF55D4003A3A88 /* TitleDetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8611BB781AEDCB1B00936B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB3851ADD905C00ABDBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8611BB751AEDCB1B00936B97;
+			remoteInfo = "Jordan Singer WWDC 15 WatchKit App";
+		};
+		8611BB821AEDCB1B00936B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB3851ADD905C00ABDBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8611BB691AEDCB1B00936B97;
+			remoteInfo = "Jordan Singer WWDC 15 WatchKit Extension";
+		};
 		86AAB3A31ADD905C00ABDBD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 86AAB3851ADD905C00ABDBD6 /* Project object */;
@@ -79,6 +100,20 @@
 			remoteInfo = "Jordan Singer WWDC 15";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8611BB8B1AEDCB1B00936B97 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8611BB841AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8604302A1AE76AB000495593 /* represent-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "represent-large@2x.png"; sourceTree = "<group>"; };
@@ -111,6 +146,14 @@
 		8606CB201ADF60EA006DEC77 /* hackarizona@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hackarizona@3x.png"; sourceTree = "<group>"; };
 		8606CB231ADF61DD006DEC77 /* innovateua@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "innovateua@2x.png"; sourceTree = "<group>"; };
 		8606CB241ADF61DD006DEC77 /* innovateua@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "innovateua@3x.png"; sourceTree = "<group>"; };
+		8611BB6A1AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Jordan Singer WWDC 15 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8611BB6D1AEDCB1B00936B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8611BB6E1AEDCB1B00936B97 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8611BB721AEDCB1B00936B97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8611BB761AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jordan Singer WWDC 15 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8611BB7C1AEDCB1B00936B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8611BB7E1AEDCB1B00936B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8611BB801AEDCB1B00936B97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		868970361AE83CFA00322DF3 /* trickle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trickle@2x.png"; sourceTree = "<group>"; };
 		868970371AE83CFA00322DF3 /* trickle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trickle@3x.png"; sourceTree = "<group>"; };
 		8689703A1AE83D3C00322DF3 /* trickle-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trickle-large@2x.png"; sourceTree = "<group>"; };
@@ -146,9 +189,17 @@
 		86BAD3D41AEC320000E14928 /* close-white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-white@3x.png"; sourceTree = "<group>"; };
 		86C9BAD71ADDD6C700653095 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		86C9BAD91ADE2C4C00653095 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		86FBEDF21AEF55D4003A3A88 /* TitleDetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleDetailInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8611BB671AEDCB1B00936B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86AAB38A1ADD905C00ABDBD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,11 +217,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8611BB6B1AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8611BB6E1AEDCB1B00936B97 /* InterfaceController.swift */,
+				8611BB721AEDCB1B00936B97 /* Images.xcassets */,
+				8611BB6C1AEDCB1B00936B97 /* Supporting Files */,
+				86FBEDF21AEF55D4003A3A88 /* TitleDetailInterfaceController.swift */,
+			);
+			path = "Jordan Singer WWDC 15 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8611BB6C1AEDCB1B00936B97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8611BB6D1AEDCB1B00936B97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8611BB7A1AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8611BB7D1AEDCB1B00936B97 /* Interface.storyboard */,
+				8611BB801AEDCB1B00936B97 /* Images.xcassets */,
+				8611BB7B1AEDCB1B00936B97 /* Supporting Files */,
+			);
+			path = "Jordan Singer WWDC 15 WatchKit App";
+			sourceTree = "<group>";
+		};
+		8611BB7B1AEDCB1B00936B97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8611BB7C1AEDCB1B00936B97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		86AAB3841ADD905C00ABDBD6 = {
 			isa = PBXGroup;
 			children = (
 				86AAB38F1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */,
 				86AAB3A51ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests */,
+				8611BB6B1AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension */,
+				8611BB7A1AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App */,
 				86AAB38E1ADD905C00ABDBD6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -180,6 +270,8 @@
 			children = (
 				86AAB38D1ADD905C00ABDBD6 /* Jordan Singer WWDC 15.app */,
 				86AAB3A21ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests.xctest */,
+				8611BB6A1AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension.appex */,
+				8611BB761AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +372,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8611BB691AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8611BB8A1AEDCB1B00936B97 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15 WatchKit Extension" */;
+			buildPhases = (
+				8611BB661AEDCB1B00936B97 /* Sources */,
+				8611BB671AEDCB1B00936B97 /* Frameworks */,
+				8611BB681AEDCB1B00936B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8611BB791AEDCB1B00936B97 /* PBXTargetDependency */,
+			);
+			name = "Jordan Singer WWDC 15 WatchKit Extension";
+			productName = "Jordan Singer WWDC 15 WatchKit Extension";
+			productReference = 8611BB6A1AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		8611BB751AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8611BB891AEDCB1B00936B97 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15 WatchKit App" */;
+			buildPhases = (
+				8611BB741AEDCB1B00936B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jordan Singer WWDC 15 WatchKit App";
+			productName = "Jordan Singer WWDC 15 WatchKit App";
+			productReference = 8611BB761AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		86AAB38C1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86AAB3AC1ADD905C00ABDBD6 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15" */;
@@ -287,10 +412,12 @@
 				86AAB3891ADD905C00ABDBD6 /* Sources */,
 				86AAB38A1ADD905C00ABDBD6 /* Frameworks */,
 				86AAB38B1ADD905C00ABDBD6 /* Resources */,
+				8611BB8B1AEDCB1B00936B97 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8611BB831AEDCB1B00936B97 /* PBXTargetDependency */,
 			);
 			name = "Jordan Singer WWDC 15";
 			productName = "Jordan Singer WWDC 15";
@@ -324,6 +451,13 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Jordan Singer";
 				TargetAttributes = {
+					8611BB691AEDCB1B00936B97 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8611BB751AEDCB1B00936B97 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7U9EMG5H2N;
+					};
 					86AAB38C1ADD905C00ABDBD6 = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -348,11 +482,31 @@
 			targets = (
 				86AAB38C1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */,
 				86AAB3A11ADD905C00ABDBD6 /* Jordan Singer WWDC 15Tests */,
+				8611BB691AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension */,
+				8611BB751AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8611BB681AEDCB1B00936B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8611BB771AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App.app in Resources */,
+				8611BB731AEDCB1B00936B97 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8611BB741AEDCB1B00936B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8681D4011AEF4B64006B943A /* Interface.storyboard in Resources */,
+				8611BB811AEDCB1B00936B97 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86AAB38B1ADD905C00ABDBD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +581,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8611BB661AEDCB1B00936B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860DD7331AEF50F50034A7DC /* InterfaceController.swift in Sources */,
+				86FBEDF31AEF55D4003A3A88 /* TitleDetailInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86AAB3891ADD905C00ABDBD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,6 +611,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8611BB791AEDCB1B00936B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8611BB751AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit App */;
+			targetProxy = 8611BB781AEDCB1B00936B97 /* PBXContainerItemProxy */;
+		};
+		8611BB831AEDCB1B00936B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8611BB691AEDCB1B00936B97 /* Jordan Singer WWDC 15 WatchKit Extension */;
+			targetProxy = 8611BB821AEDCB1B00936B97 /* PBXContainerItemProxy */;
+		};
 		86AAB3A41ADD905C00ABDBD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86AAB38C1ADD905C00ABDBD6 /* Jordan Singer WWDC 15 */;
@@ -456,6 +629,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8611BB7D1AEDCB1B00936B97 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8611BB7E1AEDCB1B00936B97 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		86AAB3961ADD905C00ABDBD6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -467,6 +648,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8611BB851AEDCB1B00936B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jordan Singer WWDC 15 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8611BB861AEDCB1B00936B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jordan Singer WWDC 15 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8611BB871AEDCB1B00936B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Jordan_Singer_WWDC_15_WatchKit_Extension;
+				INFOPLIST_FILE = "Jordan Singer WWDC 15 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		8611BB881AEDCB1B00936B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = Jordan_Singer_WWDC_15_WatchKit_Extension;
+				INFOPLIST_FILE = "Jordan Singer WWDC 15 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		86AAB3AA1ADD905C00ABDBD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -609,6 +852,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8611BB891AEDCB1B00936B97 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8611BB871AEDCB1B00936B97 /* Debug */,
+				8611BB881AEDCB1B00936B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8611BB8A1AEDCB1B00936B97 /* Build configuration list for PBXNativeTarget "Jordan Singer WWDC 15 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8611BB851AEDCB1B00936B97 /* Debug */,
+				8611BB861AEDCB1B00936B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		86AAB3881ADD905C00ABDBD6 /* Build configuration list for PBXProject "Jordan Singer WWDC 15" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
